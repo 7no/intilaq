@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+"db:push": "supabase db push",
+  "db:reset": "supabase db reset",
+  "db:types": "supabase gen types typescript --project-id jvmvdtdpzpdwfjuffwrm > lib/db/types.ts",
+  "db:diff": "supabase db diff"
   },
   "dependencies": {
     "react": "^18",
