@@ -23,6 +23,7 @@ export type Database = {
           created_at: string
           id: string
           is_active: boolean
+          is_admin: boolean
           sector: string
           updated_at: string
           user_id: string
@@ -35,6 +36,7 @@ export type Database = {
           created_at?: string
           id?: string
           is_active?: boolean
+          is_admin?: boolean
           sector: string
           updated_at?: string
           user_id: string
@@ -47,6 +49,7 @@ export type Database = {
           created_at?: string
           id?: string
           is_active?: boolean
+          is_admin?: boolean
           sector?: string
           updated_at?: string
           user_id?: string
